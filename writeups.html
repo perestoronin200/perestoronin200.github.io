@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boyras Blog</title>
+  <style>
+    body {
+      background-color: #606060; /* Fondo gris */
+    }
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      color: #fff; /* Letras blancas */
+      text-align: center;
+      margin: 0;
+    }
+    h2 {
+      font-family: "Open Sans", serif;
+      font-size: 30px;
+      color: #F5F5F5; /* Letras blancas */
+      text-align: center;
+      margin: 0;
+     }
+    a {
+      font-family: "Calibri", serif;
+      font-size: 20px;
+      texalign: center;
+      color: #000000; 
+      }
+   .columns {
+      display: flex; /* Flexbox */
+      flex-wrap: wrap; /* Ajuste a la anchura */
+      margin: 20px; /* Margen */
+    }
+    /* Estilo para las celdas */
+    .column {
+      width: 33.333%; /* anchura de la columna */
+      padding: 20px; /* Espacio interior */
+      box-sizing: border-box; /* Incluye el borde en el ancho */
+      background-color: #606060; /* Fondo blanco */
+      border: 1px solid #fff; /* Borde gris claro */
+      border-radius: 4px; /* Borde redondeado */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+    /* Estilo para los títulos */
+    .column h2 {
+      font-size: 24px; /* Tamaño de la letra */
+      color: #000; /* Color negro */
+      margin: 0; /* Margen cero */
+      padding: 10px 0; /* Espacio interior superior e inferior */
+      border-bottom: 1px solid #ddd; /* Borde inferior gris claro */
+    }
+        header {
+      display: flex; /* Flexbox */
+      align-items: center; /* Alineación centrada verticalmente */
+      justify-content: flex-end; /* Justificación a la derecha */
+      background-color: #606060; /* Fondo negro */
+      padding: 20px; /* Espacio interior */
+     }
+    /* Estilo para los botones */
+    header button {
+      font-size: 16px; /* Tamaño de la letra */
+      color: #fff; /* Color blanco */
+      background-color: transparent; /* Fondo transparente */
+      border: 2px solid #fff; /* Borde blanco */
+      border-radius: 4px; /* Borde redondeado */
+      padding: 10px 20px; /* Espacio interior */
+      cursor: pointer; /* Puntero */
+      margin-left: 10px; /* Margen a la izquierda */
+      transition: all 0.2s; /* Transición suave */
+     }
+    /* Estilo para los botones al pasar el ratón por encima */
+    header button:hover {
+      background-color: #fff; /* Fondo blanco */
+      color: #000; /* Color negro */
+     }
+  </style>
+</head>
+<header>
+   <!-- Botón Inicio -->
+    <button onclick="location.href='/home/reb/Pagina/index/index1.html'">Inicio</button>
+    <!-- Botón Contacto -->
+    <button onclick="location.href='/home/reb/Pagina/index/contacto.html'">Contactame</button>
+    <!-- Botón Posts -->
+    <button onclick="location.href='/home/reb/Pagina/index/post.html'">Posts</button>
+</header>
+<body>
+<h1>Writeups</h1>
+  <!-- Columnas -->
+  <div class="columns">
+    <!-- Columna Fácil -->
+    <div class="column">
+      <h2>Fácil</h2>
+      <!-- Contenido de la columna -->
+      <a href="#">Source</a>
+     </div>
+    <!-- Columna Media -->
+    <div class="column">
+      <h2>Media</h2>
+      <!-- Contenido de la columna -->
+    </div>
+    <!-- Columna Difícil -->
+    <div class="column">
+      <h2>Difícil</h2>
+      <!-- Contenido de la columna -->
+   </div>
+  </div>
+</body>
+</html>
