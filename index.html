@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  /* Estilo para pantallas de anchura superior a 800 pixels */
+@media (min-width: 800px) {
+  body {
+    max-width: 800px; /* Ancho máximo de 800 pixels */
+    margin: 0 auto; /* Centrado automático */
+  }
+}
+/* Estilo para pantallas de anchura inferior a 800 pixels */
+@media (max-width: 799px) {
+  body {
+    width: 100%; /* Ancho del 100% de la pantalla */
+  }
+}
   <title>Boyras Blog</title>
   <style>
     body {
